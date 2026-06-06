@@ -1,6 +1,3 @@
-environment:
-  sdk: '>=3.2.3 <4.0.0'
-
 name: marsa_cbt_mobile
 description: Marsa CBT — Client Peserta
 publish_to: none
