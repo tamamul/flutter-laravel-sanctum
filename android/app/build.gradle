@@ -23,13 +23,13 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.example.authentication_app_laravel_sanctum"
-    compileSdkVersion flutter.compileSdkVersion
-    ndkVersion flutter.ndkVersion
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+    compileSdkVersion 34
+    defaultConfig {
+        applicationId "com.marsa9.cbt"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
     }
 
     kotlinOptions {
